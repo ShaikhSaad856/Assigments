@@ -1,0 +1,44 @@
+#body{
+    background: url(https://img.magnific.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+
+}
+.header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+}
+.header img{
+    width: 100px;
+    height: auto;
+}
+.header h1{
+    
+    /* background-color: rgb(19, 35, 48); */
+    /* background-color: #040707; */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.class{
+    color: white;
+}
+#table{
+    color: white;
+}
+a{
+    color: white;
+    
+}
+button{
+    color: black;
+    background-color: black;
+}
