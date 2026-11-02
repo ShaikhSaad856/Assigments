@@ -1,0 +1,28 @@
+
+body{
+    height: 650px;
+   background: url(./Assits/cg.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.heading{
+    border: 5px solid transparent;
+    color: white;
+    text-align: center;
+    font-size: 25px;   
+}
+button{
+    width: 200PX;
+    height: 50PX;
+    background-color: transparent;
+    color: rgb(241, 239, 239);
+    border: 5px solid white;
+    font-weight: bolder;
+}
+.button{
+    width: 50px;
+    background-color: white;
+    color: black;
+ 
+}
