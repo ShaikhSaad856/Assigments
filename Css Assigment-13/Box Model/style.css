@@ -1,0 +1,27 @@
+body{
+    background-color: cornflowerblue;
+}
+.box1{
+    width: 500px;
+    padding: 40px;
+    border: 10px solid orangered;
+}
+.box2{
+    width: 600px;
+    padding: 20px;
+    border: 20px solid blue;
+}
+.box3{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border: 10px solid aqua;
+    text-align: center;
+}
+.box4{
+    width: 200px;
+    height: 500px;
+    padding: 10px 20px 30px 40px;
+    border: 5px solid brown;
+    text-align: center;
+}
