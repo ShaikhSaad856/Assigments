@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="des">
+        <h1>Decendent Combinator:-</h1>
+        <p>A descendant combinator in CSS is represented by a single space character ( ) between two selectors.</p>
+        <span>
+        <p>It selects any element that is nested inside a specified ancestor element (such as a child, grandchild, or deeper).</p>
+        </span>
+
+    </div> <br><br>
+    <div id="child">
+        <h1>Child Combinator:-</h1>
+        <p>selects only the elements that are immediate, direct children of a specified parent element its specify by (>) </p>
+        <span>
+        <p> It excludes grandchildren or any deeper nested descendants.</p>
+        </span>
+
+    </div> <br><br>
+    <div id="adj">
+        <h1>Adjacent Sibling Combinator:-</h1>
+        <p>The adjacent sibling combinator in CSS is represented by the plus sign (+).</p>
+        <span>
+        <p>This para use in span so thats why this para is not get styled</p>
+        </span>
+        <h1></h1>
+        <p>This line is after h1 thats why its get style <br>
+         It selects an element that is immediately next to (directly after) a specified element, provided both share the exact same parent.</p>
+
+    </div> <br><br>
+    <div id="gen">
+        <h1>Genral Sibling Combinator:-</h1>
+        <p>A general sibling combinator in CSS is represented by the tilde symbol (~).</p>
+        <span>
+        <p>This para use in span so thats why this para is not get styled</p>
+        </span>
+        
+        <h1><p>And This one is use in h1 so thats why this para is not get styled</p></h1>
+         <p> THIS PARA TAG IS USE JUST AFTER THE H1 TAG SO THATS WHY THIS TAG GET STYLED
+            <br>A general sibling combinator in CSS is represented by the tilde symbol (~).</p>
+
+    </div>
+
+
+
+
+
+</body>
+</html>

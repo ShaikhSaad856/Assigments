@@ -1,0 +1,33 @@
+
+#des{
+    border: 10px solid black;
+    width: 400px;
+    padding: 10px;
+}
+#des p{
+    background-color: blue;
+}
+#child{
+    border: 10px solid black;
+    width: 400px;
+    padding: 10px;
+}
+#child > p{
+    background-color: burlywood;
+}
+#adj{
+    border: 10px solid black;
+    width: 400px;
+    padding: 10px;
+}
+#adj h1 + p{
+    background-color: aqua;
+}
+#gen{
+    border: 10px solid black;
+    width: 400px;
+    padding: 10px;
+}
+#gen h1 + p{
+    background-color: orchid;
+}
